@@ -1,0 +1,5 @@
+pytest~=7.4.3
+PyYAML~=6.0.1
+setuptools~=65.5.1
+jq~=1.6.0
+requests~=2.31.0

@@ -1,0 +1,7 @@
+autobots: &autobots !include autobots.yaml
+decepticons: &decepticons !include decepticons.yaml
+leaders: &leaders !include leaders.yaml
+leader: !jq { object: *leaders, filter: '[.autobots[] | select(.name == "Optimus Prime")]' }
+all_names: !flatten
+  - !jsonpath { object: *autobots, path: '$[*].name', all: true }
+  - !jsonpath { object: *decepticons, path: '$[*].name', all: true }

@@ -1,0 +1,4 @@
+- name: Megatron
+  role: Leader
+- name: Starscream
+  role: Fighter
