@@ -2,4 +2,8 @@
 .idea
 .pytest_cache
 build
+*.egg-info/
+*.tar.gz
+*.whl
+
 
