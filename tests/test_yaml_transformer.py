@@ -5,7 +5,7 @@ from yaml_transformer import TransformerLoader
 
 @pytest.fixture
 def transformer_data():
-    with open('testdata/transformers.yaml', 'r') as file:
+    with open('tests/testdata/transformers.yaml', 'r') as file:
         return yaml.load(file, Loader=TransformerLoader)
 
 
