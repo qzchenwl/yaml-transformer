@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="yaml-transformer",
-    version="0.1.0",
+    version="0.1.1",
     author="qzchenwl",
     author_email="qzchenwl@gmail.com",
     description="A package for enhancing YAML processing with various features.",
